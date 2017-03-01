@@ -59,6 +59,35 @@ La información de las dependencias no siempre se muestra asociada a cada requis
 
 *Comentarios*: Es conveniente dejar abierta la posibilidad de atribuir los requisitos con alguna otra información no prevista inicialmente. Algunas herramientas de gestión de requisitos permiten definir nuevos atributos de requisitos de forma dinámica. Si no se dispone de esta posibilidad, se debe recurrir a atribuirlos con los comentarios que se crea oportuno. De hecho, algunas herramientas de gestión de requisitos no sólo permiten comentarios, sino que incorporan funcionalidades similares a los foros para que se puedan desarrollar discusiones sobre los requisitos.
 
+Requisitos No Funcionales
+=========================
+Los requisitos no funcionales describen lo bien que un sistema realiza su funcion, a diferencia de los requisitos funcionales que son aquellos que describen el funcionamiento de dicho sistema.
+
+Si tomamos como ejemplo, la funcion de "buscar y reemplazar" de un procesador de texto, el requisito funcional podría describir como funciona el juego entre mayúsculas y minúsculas "Si el texto original fue todo en mayúsculas, el texto deberá ser colocado en mayúsculas". Un requisito no funcional, podría describir el rendimiento ("tiene que ser capaz de reemplazar 1000 términos de búsqueda en un documento de 3 Mb en 250 ms en una computadora que esté funcionando al 50% de carga").
+
+Es de suma facilidad que los requisitos no funcionales sean poco claros o ambiguos. La mejor manera de que un requisito no funcional es claro y facil de utilizar es cuantificarlo. No es lo mismo decir, que una determinada tarea debe realizarse rapidamente,a que dicha tarea debe realizarse en una cantidad máxima de segundos.
+
+Lista de Verificación
+=====================
+
+Esta es una lista de verificación, donde figuran algunas preguntas que se deben realizar desde el inicio del proyecto.
+
+* Disponibilidad: Existen restricciones sobre la disponibilidad o el tiempo de actividad del sistema ?
+
+* Eficiencia: Hay recursos en los cuales se debe tener especial cuidado en que no sean monopolizados ?
+
+* Flexibilidad: El sistema podrá ser modificado luego de la implementación ?
+
+* Portabilidad: Que tan facil es migrar el sistema a otra plataforma ?
+
+* Integridad: Que tan sensible es el sistema, respecto de la seguridad de los datos, del acceso y de la privacidad ?
+
+* Robustez: Las condiciones de error deben ser tratadas de manera comprensiva y agradable ?
+
+* Escalabilidad: El sistema necesita manejar una amplia gama de tamaños de configuración ?
+
+* Usabilidad: Existen limitaciones específicas sobre como los usuarios van a entender, aprender y utilizar el software ?
+
 Actividades y su descripción
 ============================
 
